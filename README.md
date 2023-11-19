@@ -1,75 +1,12 @@
-# Nuxt 3 Minimal Starter
+# Pokemon Type Check Tool
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+寶可夢打點 & 抗性檢測工具
+預計支援中、英（日）文
 
-## Setup
+## 資料夾結構
 
-Make sure to install the dependencies:
+### assets
 
-```bash
-# npm
-npm install
+用來存放像是 CSS、Sass、字體、圖片等需要被 webpack 或是 Vite 編譯的靜態資源（壓縮、最佳化），如不需經過編譯，則存放於 public/
 
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+###
