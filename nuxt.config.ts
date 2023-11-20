@@ -4,6 +4,10 @@ import VueI18nVitePlugin from '@intlify/unplugin-vue-i18n/vite'
 import vuetify, { transformAssetUrls } from 'vite-plugin-vuetify'
 
 export default defineNuxtConfig({
+  app: {
+    baseURL: process.env.NODE_ENV === 'production' ? '/TypeCheckTool/' : '/',
+    buildAssetsDir: '/static/'
+  },
   devtools: { enabled: false },
   build: {
     transpile: ['vue-i18n', 'vuetify']
